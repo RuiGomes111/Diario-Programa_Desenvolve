@@ -1,0 +1,38 @@
+.navlateral {
+  background-color: #1e1f20;
+  width: 270px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: #777 0px 0px 30px;
+}
+
+.navlateral i {
+  color: #00aec5;
+}
+
+.navlateral ul {
+  padding-top: 50px;
+}
+
+.navlateral h1 {
+  color: #b311f5;
+  font-size: 80px;
+  padding: 6px 10px 6px 18px;
+  width: 260px;
+  border-bottom: #ddd 1px solid;
+}
+
+.navlateral a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 6px 10px 6px 18px;
+  display: block;
+}
+
+.navlateral a:hover {
+  background-color: #512d65;
+}
+

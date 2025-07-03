@@ -1,0 +1,32 @@
+body.light {
+  color: black;
+  background-color: #ddd;
+}
+
+body.dark {
+  background-color: #131314;
+}
+
+body.light .item {
+  background-color: #1e1f20;
+  color: white;
+}
+
+body.light .navlateral {
+  background-color: #ddd;
+}
+
+body.light .navlateral a {
+  color: black;
+}
+
+.mood {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+.mood i {
+  color: white;
+  z-index: 1;
+}
