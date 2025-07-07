@@ -1,6 +1,6 @@
 .navlateral {
   background-color: #1e1f20;
-  width: 270px;
+  width: 20rem;
   height: 100%;
   position: fixed;
   z-index: 1;
@@ -13,22 +13,22 @@
 }
 
 .navlateral ul {
-  padding-top: 50px;
+  padding-top: 5rem;
 }
 
 .navlateral h1 {
   color: #b311f5;
-  font-size: 80px;
-  padding: 6px 10px 6px 18px;
-  width: 260px;
+  font-size: 5rem;
+  padding: 0.5rem 2rem 1rem 2rem;
+  width: 30rem;
   border-bottom: #ddd 1px solid;
 }
 
 .navlateral a {
   color: #ddd;
   text-decoration: none;
-  font-size: 35px;
-  padding: 6px 10px 6px 18px;
+  font-size: 2rem;
+  padding: 0.5rem 1rem 1rem 2rem;
   display: block;
 }
 
@@ -36,3 +36,29 @@
   background-color: #512d65;
 }
 
+@media (max-width: 480px) {
+  .navlateral {
+    width: 7rem;
+    
+  }
+  .navlateral h1 {
+    color: #b311f5;
+    font-size: 2rem;
+    padding: 1.5rem 0rem 0rem 0.5rem;
+    width: 7rem;
+    border-bottom: #ddd 1px solid;
+  }
+  .navlateral a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  .navlateral ul {
+    padding-top: 1.5rem;
+    
+  }
+
+  .navlateral i {
+    display: none;
+  }
+}

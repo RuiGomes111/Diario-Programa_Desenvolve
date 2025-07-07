@@ -22,11 +22,20 @@ body.light .navlateral a {
 
 .mood {
   position: fixed;
-  right: 20px;
-  top: 20px;
+  right: 2rem;
+  top: 2rem;
 }
 
 .mood i {
   color: white;
   z-index: 1;
+}
+
+
+@media(max-width: 480px){
+  .mood {
+ 
+  right: -5rem;
+  top: 1rem;
+}
 }
